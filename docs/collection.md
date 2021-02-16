@@ -1,6 +1,8 @@
 ---
-title: Collections
-description: The collection is the base resource in the application.
+
+title: "Collections"
+description: "The collection is the base resource in the application."
+
 ---
 
 
