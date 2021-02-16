@@ -13,12 +13,15 @@ The collection is the base resource in the application.
 | pads         | array of pad objects | The pads in the collection.                                                                                                                                               |
 | owner        | unknown              | The ID of the owner                                                                                                                                                       |
 | public       | boolean              | Whether this collection is publicly discoverable (i.e., no invite needed).c                                                                                               |
+---
 
-## Get Current User Collections ``GET % /user/notebooks``
+## HTTP Methods
+
+### Get Current User Collections ``GET % /user/notebooks``
 Returns an array of [collection](#collection-object) objects.
 
 
-## Create Collection ``POST % /collections/new``
+### Create Collection ``POST % /collections/new``
 
 Creates a new collection. Returns a [collection](#collection-object) object on success.
 
@@ -30,5 +33,5 @@ Creates a new collection. Returns a [collection](#collection-object) object on s
 | public | boolean | Whether this collection is publicly discoverable (i.e., no invite needed). |
 
 
-## Get Collection Pads ``GET % /collections/{collection.id}/pads``
+### Get Collection Pads ``GET % /collections/{collection.id}/pads``
 Returns an array of pad objects on success.
