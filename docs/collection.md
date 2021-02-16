@@ -1,10 +1,10 @@
 ---
 
+layout: default
 title: "Collections"
 description: "The collection is the base resource in the application."
 
 ---
-
 
 # Collection
 
