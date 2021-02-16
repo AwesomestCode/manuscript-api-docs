@@ -63,3 +63,6 @@ Creates a new collection. Returns a [collection](#collection-object) object on s
 
 ### Get Collection Pads ``GET % /collections/{collection.id}/pads``
 Returns an array of pad objects on success.
+
+### Create New Pad ``POST % /collections/{collection.id}/pads/new``
+Returns the pad object on success.
