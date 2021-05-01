@@ -27,7 +27,7 @@ The collection is the base resource in the application.
 {
   "id" : "722608120345657365",
   "name" : "An Example Pad",
-  "permissions" : 1
+  "permissions" : 1,
   "pads" : [
     {
       "id" : "722823252396736572",
@@ -43,7 +43,7 @@ The collection is the base resource in the application.
       "owner" : "722823252396736572",
       "public" : false
     }
-  ]
+  ],
   "owner" : "300383967121768459",
   "public" : true
 }
