@@ -20,7 +20,7 @@ The collection is the base resource in the application.
 | permissions? | u16                  | An unsigned two byte integer containing the permissions of the user (each bit represents a permission). Can be omitted if the user doesn't have access to the collection. |
 | pads         | array of pad objects | The pads in the collection.                                                                                                                                               |
 | owner        | unknown              | The ID of the owner                                                                                                                                                       |
-| isPublic       | boolean              | Whether this collection is publicly discoverable (i.e., no invite needed). 
+| public       | boolean              | Whether this collection is publicly discoverable (i.e., no invite needed). 
 
 ###### Example Collection
 ```json
@@ -33,17 +33,17 @@ The collection is the base resource in the application.
       "id" : "722823252396736572",
       "name" : "Example Pad 1",
       "permissions" : 1,
-      "isPublic" : false
+      "public" : false
     },
     {
       "id" : "722823213863796766",
       "name" : "Example Pad 2",
       "permissions" : 1,
-      "isPublic" : false
+      "public" : false
     }
   ],
   "owner" : "300383967121768459",
-  "isPublic" : true
+  "public" : true
 }
 ```
 
