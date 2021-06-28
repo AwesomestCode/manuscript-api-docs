@@ -51,11 +51,12 @@ The collection is the base resource in the application.
 
 ## HTTP Methods
 
-### Get Current User Collections ``GET % /user/notebooks``
+### Get Collections ``GET % /user/{user.id}/notebooks``
+
 Returns an array of [collection](#collection-object) objects.
 
 
-### Create Collection ``POST % /collections/new``
+### Create Collection ``POST % /user/{user.id}/collections/new``
 
 Creates a new collection. Returns a [collection](#collection-object) object on success.
 
