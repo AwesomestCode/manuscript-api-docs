@@ -2,3 +2,4 @@
 
 Try looking at the docs for 
 * [Collections](collection)
+* [Users](user)
