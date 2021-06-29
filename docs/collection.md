@@ -62,10 +62,11 @@ Creates a new collection. Returns a [collection](#collection-object) object on s
 
 ###### JSON Params
 
-| Field  | Type    | Description                                                                |
-|--------|---------|----------------------------------------------------------------------------|
-| name   | string  | A String containing the name displayed to the user in the application.     |
-| public | boolean | Whether this collection is publicly discoverable (i.e., no invite needed). |
+| Field     | Type    | Description                                                                            |
+|-----------|---------|----------------------------------------------------------------------------------------|
+| name      | string  | A String containing the name displayed to the user in the application.                 |
+| public    | boolean | Whether this collection is publicly discoverable (i.e., no invite needed).             |
+| notebook? | u64     | The ID of the notebook that contains this collection. Omit to put in default notebook. |
 
 
 ### Get Collection Pads ``GET % /collections/{collection.id}/pads``
